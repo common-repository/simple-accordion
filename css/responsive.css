@@ -1,0 +1,19 @@
+/* Default Layout: 992px. */
+.accordion{width:960px;}
+
+/* tablet layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+.accordion{width:750px;}
+}
+
+/*mobile layout: 320px */
+@media only screen and (max-width: 767px){
+.accordion{width:300px;}
+}
+
+
+
+/*Wide mobile Layout: 480px */
+@media only screen and (min-width: 480px) and (max-width:767px) {
+.accordion{width:450px;background:pink;}
+}
